@@ -9,7 +9,7 @@ import dns from "node:dns"
 import userRouter from "./routers/userRouter.js"
  dns.setServers(["1.1.1.1"],["8.8.8.8"])
 
-const mongodbURI = "mongodb+srv://admin:1234@cluster0.dilbzon.mongodb.net/?appName=Cluster0"
+const mongodbURI = "mongodb+srv://>>>>>>:>>>>@cluster0.dilbzon.mongodb.net/?appName=Cluster0"
 
 mongoose.connect(mongodbURI).then(
     ()=>{
